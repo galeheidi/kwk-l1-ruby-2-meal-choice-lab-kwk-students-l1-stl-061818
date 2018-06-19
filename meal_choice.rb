@@ -26,7 +26,7 @@
 def breakfast 
   breakfast = "frosted flakes"
   time_of_day = "Morning"
-  puts "#{time_of_day} is the best time for #{breakfast}"
+  puts "#{time_of_day} is the best time for #{breakfast}!"
 end 
 breakfast 
 
