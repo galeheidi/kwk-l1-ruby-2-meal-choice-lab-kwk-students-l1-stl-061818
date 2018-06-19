@@ -39,7 +39,7 @@ lunch
 
 def dinner 
   dinner= "salmon"
-  time_of_day="afternoon"
+  time_of_day="Afternoon"
   puts "#{time_of_day} is the best time for #{dinner}"
 end 
 dinner
