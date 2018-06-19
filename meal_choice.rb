@@ -23,22 +23,20 @@
 ## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
 
 
-def breakfast (breakfast,time_of_day)
+def breakfast(breakfast,time_of_day)
   puts "#{time_of_day} is the best time for #{breakfast}!"
 end 
-breakfast ("frosted Flakes","Morning")
+breakfast("frosted Flakes","Morning")
 
-def lunch (lunch,time_of_day)
+def lunch(lunch,time_of_day)
   puts "#{time_of_day} is the best time for #{lunch}."
 end 
-lunch ("grilled cheese","12:00")
+lunch("grilled cheese","12:00")
 
-def dinner 
-  dinner= "salmon"
-  time_of_day="Afternoon"
+def dinner(dinner,time_of_day)
   puts "#{time_of_day} is the best time for #{dinner}"
 end 
-dinner
+dinner("salmon","afternoon")
 
 
   
