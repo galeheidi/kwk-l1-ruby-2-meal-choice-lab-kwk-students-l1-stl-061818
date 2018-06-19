@@ -24,7 +24,7 @@
 
 
 def breakfast 
-  breakfast = "frosted flakes"
+  breakfast = "Frosted Flakes"
   time_of_day = "Morning"
   puts "#{time_of_day} is the best time for #{breakfast}!"
 end 
@@ -33,7 +33,7 @@ breakfast
 def lunch
   lunch = "grilled cheese"
   time_of_day = "12:00"
-  puts "#{time_of_day} is the best time for #{lunch}"
+  puts "#{time_of_day} is the best time for #{lunch}."
 end 
 lunch
 
@@ -43,5 +43,6 @@ def dinner
   puts "#{time_of_day} is the best time for #{dinner}"
 end 
 dinner
+
 
   
