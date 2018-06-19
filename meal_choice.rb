@@ -29,3 +29,11 @@ def breakfast
   puts "#{time_of_day} is the best time of day for #{breakfast}"
 end 
 breakfast 
+
+def lunch
+  lunch = "grilled cheese"
+  time_of_day = "12:00"
+  puts "#{time_of_day} is the best time of day for #{lunch}"
+end 
+lunch
+  
